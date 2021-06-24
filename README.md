@@ -1,6 +1,6 @@
 ## Jetbrains Exposed - CamelCase Foreign Key Bug Demo
 
-This is a really simple demo of [this issue]() in Jetbrains Exposed.
+This is a really simple demo of [this issue](https://github.com/JetBrains/Exposed/issues/1282) in Jetbrains Exposed.
 
 When creating an entity with a foreign key that references a column using a camel-case name, a `NoSuchElementException`
 is thrown.
